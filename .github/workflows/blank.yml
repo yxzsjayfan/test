@@ -5,7 +5,7 @@ name: CI
 # Controls when the workflow will run
 on:
   schedule:
-    - cron:  '50 1,2,3 * * *'
+    - cron:  '50 6,7,8,9,10 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,5 +31,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          curl http://baidu.com
           echo $RANDOM
+          curl https://www.baidu.com/
