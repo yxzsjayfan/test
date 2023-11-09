@@ -31,5 +31,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo $RANDOM
+          echo ($RANDOM % 10 +1)
+          sleep ($RANDOM % 10 +1)min
           curl https://www.baidu.com/
