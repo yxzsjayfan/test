@@ -31,5 +31,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          sleep 2min
+          sleep 120
           curl https://www.baidu.com/
